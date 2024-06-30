@@ -293,6 +293,6 @@ footer div {
   }
 
   video {
-    max-width: fit-content;
+    max-width: 400px;
   }
 }
