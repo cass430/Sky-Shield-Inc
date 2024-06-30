@@ -291,4 +291,8 @@ footer div {
   .logo {
     max-height: 150px;
   }
+
+  video {
+    max-width: fit-content;
+  }
 }
