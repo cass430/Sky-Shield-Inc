@@ -241,17 +241,17 @@ video {
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
-  line-height: 1.25;
+  line-height: 1; /* Adjust line-height for smaller buttons */
   margin-right: 5%;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  min-height: 2rem; /* Adjust minimum height */
+  padding: 0.5rem 1rem; /* Adjust padding for smaller buttons */
   position: relative;
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: baseline;
+  vertical-align: middle; /* Adjust vertical alignment if needed */
   width: auto;
 }
 
@@ -345,6 +345,7 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   text-align: center;
+  height: 100%;
 }
 
 .card i {
@@ -427,5 +428,9 @@ footer a:hover {
   .back-video {
     width: 100%;
     height: auto;
+  }
+
+  .hide-item {
+    display: none;
   }
 }
