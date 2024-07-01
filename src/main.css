@@ -57,7 +57,7 @@ header {
 
 .logo {
   max-width: 380px;
-  margin-top: -18px;
+  margin-top: -30px;
 }
 
 .background-wrapper {
@@ -68,34 +68,51 @@ header {
 }
 
 .header-wrapper {
-  height: 100px;
+  height: 200px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .high-light {
   color: var(--secondary-color);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .icon-box {
-  border: 2px solid rgba(169, 169, 169, 0.3);
-  padding: 5px;
+  border: 1px solid rgba(169, 169, 169, 0.3);
+  padding: 8px;
+  margin: 10px;
+}
+
+.icon-box i {
+  color: var(--secondary-color);
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.sub-text {
+  color: rgba(169, 169, 169, 0.8);
+  text-align: left;
+  margin-left: 5px;
+}
+
+.flex-item2 a {
+  color: #000000;
+  font-weight: 700;
 }
 
 /* have to add media query for h1 < try 600px */
-
-h1 {
-  color: #000000;
-  font-size: 55px;
-  text-align: left;
-  margin-left: 100px;
-  padding: 0;
-}
 
 nav {
   background-color: var(--primary-color);
@@ -341,7 +358,7 @@ h2 {
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card:hover i.fa-solid.fa-tarp-droplet {
+.card:hover i {
   color: var(--primary-color);
 }
 
