@@ -407,9 +407,9 @@ footer a:hover {
 
 /*about us CSS */
 .about-us-text {
-  max-width: 900px;
-  margin: 20px;
+  margin: 0 auto;
   font-size: 18px;
+  padding: 35px;
 }
 
 /* gallery CSS*/
