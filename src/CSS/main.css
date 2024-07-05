@@ -351,7 +351,8 @@ h2 {
 .card i {
   font-size: 50px;
   color: #ffffff;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -365,8 +366,10 @@ h2 {
 
 /* Add some padding inside the card container */
 .card-container {
+  height: 200px;
   text-align: left;
   padding: 2px 16px;
+  font-size: large;
 }
 
 .circle {
@@ -377,6 +380,10 @@ h2 {
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.card h6 {
+  font-weight: 700;
 }
 
 footer {
@@ -400,10 +407,16 @@ footer a:hover {
 
 /*about us CSS */
 .about-us-text {
+  max-width: 900px;
+  margin: 20px;
   font-size: 18px;
 }
 
 /* gallery CSS*/
+.image-gallery {
+  margin: 0 auto;
+  text-align: center;
+}
 
 .image-gallery img {
   max-width: 200px;
