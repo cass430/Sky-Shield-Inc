@@ -398,6 +398,15 @@ footer a:hover {
   text-decoration: none;
 }
 
+/*about us CSS */
+.about-us-text {
+  font-size: 18px;
+}
+
+.image-gallery img {
+  max-width: 200px;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 35px; /* Adjust font size for smaller screens */
