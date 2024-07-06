@@ -411,6 +411,10 @@ footer a:hover {
   padding: 35px;
 }
 
+.about-us-text a {
+  color: var(--secondary-color);
+}
+
 /* gallery CSS*/
 .image-gallery {
   margin: 0 auto;
